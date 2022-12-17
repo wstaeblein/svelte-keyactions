@@ -2,6 +2,7 @@
 // those keys are pressed. One event per key
 // Ex: the key value for enter is Enter, so if you pass Enter it will setup an enterPress event for you.
 // More than one key can be passed separated by commas
+
 export function keyact(node, keys) {
     let keyarr = keys.toLowerCase().split(',').map(k => k.trim());
 

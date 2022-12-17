@@ -52,5 +52,6 @@ This is so simple that it doesn't need a NPM package. Just copy the file ``/src/
 Download this code, extract it and run:
 
 ```
+npm i
 npm run dev
 ```
