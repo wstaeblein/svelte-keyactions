@@ -1,7 +1,7 @@
 # Svelte Key Actions
 
 
-Simple Svelte action to enabled individual key events on any element. Useful when you need to trap only a few keys and don't want to bother writing specific code for it. Just call it passing the keys you need and listen to the events accordingly. The custom events created are always the key name followed by 'Press'. If you pass enter to the action you'll have an enterPress event that will fire when ENTER key is pressed and released, if you pass esc you'll have an escPress event that behave likewise.
+Simple Svelte action to enable individual key events on any element. Useful when you need to trap only a few keys and don't want to bother writing specific code for it. Just call it passing the keys you need and listen to the events accordingly. The custom events created are always the key name followed by 'Press'. If you pass enter to the action you'll have an enterPress event that will fire when ENTER key is pressed and released, if you pass esc you'll have an escPress event that behave likewise.
 
 ```html
 <script>
