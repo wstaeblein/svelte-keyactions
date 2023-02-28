@@ -38,6 +38,9 @@ Simple Svelte action to enable individual key events on any element. Useful when
 
 </style>
 ```
+
+[CHECK OUT THE DEMO](https://wstaeblein.github.io/svelte-keyactions)
+
 For some keys that are not straightforward, such as SPACE you can tweak a switch structure in the ``/src/Keyact.js`` file to change the name of the event. When the SPACE key is pressed, the key property returns an actual space and that cannot be used in an event name. So we change it to the word space and we get a spacePress event.
 
 ## Instalation
