@@ -1,12 +1,12 @@
-// Creates events for the keys passed in the form (key property)Press. These events are dispatched after 
-// those keys are pressed. One event per key
+// Creates events for the keys passed in the form <key property>Press. 
+// These events are dispatched after those keys are pressed. One event per key.
 // Ex: the key value for enter is Enter, so if you pass Enter it will setup an enterPress event for you.
 // More than one key can be passed separated by commas
 
 export function keyact(node, keys) {
     let keyarr = keys.toLowerCase().split(',').map(k => k.trim());
 
-	const handleKeyboard = (event) => { console.log(event.key)
+	const handleKeyboard = (event) => {
         event.preventDefault();
         let evKey = event.key.toLowerCase();
 
@@ -18,7 +18,7 @@ export function keyact(node, keys) {
         }
 
         if (keyarr.indexOf(evKey) > -1) {
-            let eventName = evKey + 'Press';                            console.log(eventName)
+            let eventName = evKey + 'Press';
             node.dispatchEvent(new CustomEvent(eventName));
         }
 	};

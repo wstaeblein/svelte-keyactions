@@ -11,8 +11,6 @@
     function cancelName() { 
         name = '';
     } 
-    
-
 </script>
 
 <main>
@@ -30,7 +28,6 @@
             on:enterPress={processName} 
         />    
     </div>
-
 </main>
 
 <style>
